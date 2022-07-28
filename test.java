@@ -4,7 +4,7 @@ public class test {
     public static void main(String[] args) {
         System.out.println("This is the main file"); //this is a comment
         String userInp = takeInput("Please enter your name: ");
-        System.out.println(userInp);
+        System.out.println(userInp); //ANOTHER COMMENT
     }
 
     public static String takeInput(String Message)
