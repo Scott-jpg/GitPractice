@@ -13,6 +13,7 @@ public class test {
         System.out.print(Message);
         String input = mScanner.next();
         mScanner.close();
+        cat.speak();
         return input;
     }
 }
