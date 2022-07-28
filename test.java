@@ -5,6 +5,8 @@ public class test {
         System.out.println("This is the main file"); //this is a comment
         String userInp = takeInput("Please enter your name: ");
         System.out.println(userInp); //ANOTHER COMMENT
+        new cat().speak();
+        new dog().speak();
     }
 
     public static String takeInput(String Message)
@@ -13,7 +15,6 @@ public class test {
         System.out.print(Message);
         String input = mScanner.next();
         mScanner.close();
-        cat.speak();
         return input;
     }
 }
